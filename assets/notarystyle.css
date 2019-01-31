@@ -1,0 +1,134 @@
+
+body{
+    font-family: sans-serif; 
+    padding-top: 20px;
+    margin: 10px;
+}
+
+
+/*Global*/
+.container{
+  width:80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+
+li a{
+    display: inline-block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: left;
+}
+
+li{
+    display: inline-block;
+}
+
+
+li a:hover{
+    background-color: broze;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul  {
+    float: right;
+}
+
+/*Header*/
+
+header{
+    background-color: #333;
+    padding-top: 30px;
+    min-height: 50px;
+    color: white;
+    border-bottom: #333 3px solid;
+}
+
+h1{
+    font-style: oblique;
+    font-size: 60px;
+    font-display: swap;
+    color: gold;
+}
+
+footer{
+    background-color: #333;
+    padding-top: 30px;
+    min-height: 20px;
+    color: white;
+    border-bottom: #333 3px solid;
+}
+
+#banner{
+    float:right;
+    margin:10px;
+    padding: 10px;
+}
+
+
+/* elmcity */
+#elmcity{
+  min-height: 300px;
+  max-width: 800px;
+  background-image: url('../img/elmcity.jpg') no-repeat;
+  background-size:cover;
+  text-align: center;
+  color: #ffffff;
+}
+
+#elmcity h1{
+  margin-top: 100px;
+  font-size: 55px;
+  margin-bottom: 10px;
+}
+
+#elmcity{
+  font-size:20px;
+}
+
+.button{
+    background-color: blue;
+    border: none;
+    color:white;
+    padding:  5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#information{
+    background-image: url('../img/about.jpg');
+    padding: 0;
+    margin: 0;
+}
+
+#moble{
+    background-image: url('../img/mobile-notary.jpg');
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.jumbotron{
+    background:url('../img/elmcity.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px; 
+    text-align: center;
+    padding:60px;
+}
+
+
+
